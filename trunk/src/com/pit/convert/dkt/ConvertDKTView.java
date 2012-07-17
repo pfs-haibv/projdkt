@@ -767,7 +767,7 @@ public class ConvertDKTView extends FrameView {
                         int endIndex = l.getName().length();
                         int beginIndex = endIndex-3;
                         // Scan file có định dạng .XML
-                        if(l.getName().substring(beginIndex, endIndex).equals("XML")){
+                        if(l.getName().substring(beginIndex, endIndex).equals("xml")){
                             f_name = l.getName();
                             f_xml = new File(dirFile+"\\"+l.getName());
                             InputSource input = null;
